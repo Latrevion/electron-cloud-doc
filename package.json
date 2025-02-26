@@ -13,6 +13,7 @@
     "dev": "concurrently \"cross-env  BROWSER=none pnpm run start\" \"wait-on http://localhost:3000 & pnpm run ele\""
   },
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
