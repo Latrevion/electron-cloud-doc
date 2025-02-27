@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "ele": "electron .",
-    "dev": "concurrently \"cross-env  BROWSER=none pnpm run start\" \"wait-on http://localhost:3000 & pnpm run ele\""
+    "dev": "concurrently \"cross-env  BROWSER=none pnpm run start\" \"wait-on http://localhost:3000 && electron .\""
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
